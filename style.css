@@ -1,0 +1,54 @@
+#chart {
+  max-width: 100%;
+  background-color: #0f1640;
+  max-height: 70vh;
+  color: #0f1640;
+  font-family: "Indie Flower", cursive;
+}
+h1 {
+  text-align: center;
+  background-color: #1e91ee;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: #000000;
+  font-family: "Balsamiq Sans", cursive;
+}
+body {
+  background-color: #00010d;
+  overflow: visible;
+}
+.inp {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  flex-wrap: wrap;
+}
+input {
+  margin: 0.5rem 1.5rem 0.5rem 1.5rem;
+  padding: 0.5rem;
+}
+
+#inpDate {
+  text-decoration: none;
+  font-family: "Balsamiq Sans", cursive;
+  font-weight: bold;
+  padding: 1rem 2rem 1rem 2rem;
+  color: #ffffff;
+}
+
+.info {
+  color: aliceblue;
+  margin-right: 20vh;
+  margin-left: 20vh;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-justify: auto;
+  font-family: "Balsamiq Sans", cursive;
+}
+@media (max-width: 600px) {
+  .info {
+    margin-left: 1vh;
+    margin-right: 1vh;
+  }
+}

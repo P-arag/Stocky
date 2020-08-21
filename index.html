@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stocky</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="neon.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>
+      Welcome to Stocky <br />
+      The stock market WebApp !!
+    </h1>
+    <div class="info">
+      Type in the date to get the stock. And remember to put the data in
+      <strong> yy-mm-dd </strong>format otherwise it's not gonna work and
+      remember to put the <strong> dashes</strong> in between. For example you
+      might wanna put 2020-08-20 instead of the normal 20/8/2020
+    </div>
+    <div class="inp">
+      <form><input type="text" placeholder="yy-mm-dd" id="inp" /></form>
+      <a href="#" id="inpDate">Go!!!</a>
+    </div>
+    <div id="chart"></div>
+    <a href="#" class="btnChange" id="smooth">
+      Smoothen
+    </a>
+    <a href="#" class="btnChange" id="line">
+      Straighten
+    </a>
+    <a href="#" class="btnChange" id="default">
+      Default
+    </a>
+  </body>
+
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+  <script src="app.js"></script>
+</html>
