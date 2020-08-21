@@ -15,7 +15,8 @@ h1 {
 }
 body {
   background-color: #00010d;
-  overflow: visible;
+  overflow-x: hidden;
+
 }
 .inp {
   display: flex;
@@ -51,4 +52,11 @@ input {
     margin-left: 1vh;
     margin-right: 1vh;
   }
+}
+.foot {
+  font-family: "Indie Flower", cursive;
+  color: aliceblue;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: #0f1640;
 }
